@@ -1,2 +1,17 @@
 Cloud front sirve para conectar el dominio con el bucket
 
+dentro de Cloud front en el menú, dar en distributions
+
+- crear distribución
+  poner el bucket en origin domain
+  use website endpoin (dejar por defecto)
+  en viewer protocol policy, elegir redirect HTTP to HTTPS
+  desactivar firewall para que no lo cobren
+  
+  - settings
+    agregar los dominios:  dominio.com *.dominio.com www.dominio.com
+    en custom ssl certificate elegir el certificado
+  
+  guardar cambios
+
+siguiente paso-> cloud front

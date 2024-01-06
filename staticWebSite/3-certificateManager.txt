@@ -1,5 +1,7 @@
 dentro de Certificate manager en el menú, dar en Request Certificate
 
+- crear el certificado en la región 1
+
 - Request Certificate
   dar en siguiente
   poner el dominio Principal
@@ -7,6 +9,10 @@ dentro de Certificate manager en el menú, dar en Request Certificate
     *.dominio.com (para subdominios)
     www.dominio.com
   
-  dar en guardar (esperar la validación)
+  dar en guardar
+  entrar el en certificado
+  dar en Create records in Route53
+  (esperar validación) 
+
 
 siguiente paso-> cloud front

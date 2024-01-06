@@ -1,0 +1,9 @@
+dentro de Route53 en el menú, dar en Hosted zones
+
+- entrar en la zona
+  crear records
+  seleccionar A-
+  habilitar Alias
+  seleccionar cloudfront
+  elegir la distributions
+  guardar cambios

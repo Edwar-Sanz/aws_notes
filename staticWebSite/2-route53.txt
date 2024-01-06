@@ -7,8 +7,8 @@ dentro de Route53 en el menú, dar en Hosted zones
   esto crea los registros "NS"
 
 - en la página donde se compró en dominio
-  buscar los Registros DNS
-  copiar los registros "NS" desde Route53 
-  añadirlos al proveedor del dominio (uno a uno)
+  buscar los Registros DNS del proveedor
+  copiar (sin el punto final) los registros "NS" desde Route53 
+  añadirlos al proveedor del dominio (uno a uno) en "servidores de nombres personalizados"
 
 siguiente paso-> Certificate manager
