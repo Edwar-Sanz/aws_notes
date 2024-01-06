@@ -1,0 +1,44 @@
+S3 es para almacenar archivos o también sirve para hostear una página
+
+- Hacer build para construir el sitio web estático
+
+-crear un bucket
+  un bucket es como una carpeta, dentro de S3
+
+  el bucket debe tener el nombre del dominio exacto
+
+  llenar el formulario
+
+  - dar permisos al bucket
+    entro en el bucket
+    en la pestaña permisos buscar policy y dar en editar.
+    dar en policy generator para abrir un formulario
+
+    -en el formulario
+      seleccionar S3
+      poner un asterisco en "Principal" para darle acceso a todos
+      en "Actions" seleccionar GetObject
+      poner el ARN del bucket y ponerle al final /* (el ARN es como un id, se puede encontrar en las propiedades del bucket)
+      dar en add statement y generar policy
+      copiar el JSON y volver a los permisos del bucket
+
+    pegar el JSON
+    dar en guardar
+
+  - subir los archivos estáticos
+
+  -editar las propiedades del bucket
+    buscar Static website hosting y editar
+    habilitar opción Static website hosting
+    especificar los archivos de index y de error (index.html)
+    guardar cambios
+
+  despues de editar se genera una url del sitio web
+
+  siguiente paso-> Route53
+
+
+
+
+
+

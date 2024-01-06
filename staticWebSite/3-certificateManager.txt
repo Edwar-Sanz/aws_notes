@@ -1,0 +1,12 @@
+dentro de Certificate manager en el menú, dar en Request Certificate
+
+- Request Certificate
+  dar en siguiente
+  poner el dominio Principal
+  - agregar otros dominios
+    *.dominio.com (para subdominios)
+    www.dominio.com
+  
+  dar en guardar (esperar la validación)
+
+siguiente paso-> cloud front
